@@ -1,0 +1,112 @@
+    .full_sheet {
+        width: 100%;
+        height: auto;
+    }
+    
+    .headder {
+        width: 100%;
+        height: 90px;
+        background-color: #00BFFF;
+        margin-top: -20px;
+    }
+    
+    .powerbtn {
+        float: right;
+        margin-top: -40px;
+        margin-right: 35px;
+        border-radius: 25px;
+        padding-top: 8px;
+        height: 15px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    .cntnt {
+        width: 100%;
+        height: 740px;
+        display: flex;
+        background-color: #111;
+    }
+    
+    .nav {
+        width: 20%;
+        height: 100%;
+        text-decoration: none;
+    }
+    
+    .sidenav {
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    /* Style the sidenav links and the dropdown button */
+    
+    .sidenav a,
+    .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+    }
+    /* On mouse-over */
+    
+    .sidenav a:hover,
+    .dropdown-btn:hover {
+        color: #f1f1f1;
+    }
+    
+    .active {
+        background-color: green;
+        color: white;
+    }
+    /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+    
+    .dropdown-container {
+        display: none;
+        background-color: #262626;
+        padding-left: 8px;
+    }
+    /* Optional: Style the caret down icon */
+    
+    .fa-caret-down {
+        float: right;
+        padding-right: 8px;
+    }
+    /* Some media queries for responsiveness */
+    
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+    
+    .display {
+        width: 80%;
+        background-color: white;
+    }
+    
+    .displayUpdate {
+        width: 80%;
+        background-image: url("https://data.1freewallpapers.com/download/gradient-pink-shades-background-color-delicate-1280x720.jpg");
+    }
+    
+    .scroll {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #ccc;
+        font: 16px/26px Georgia, Garamond, Serif;
+        overflow: auto;
+    }
